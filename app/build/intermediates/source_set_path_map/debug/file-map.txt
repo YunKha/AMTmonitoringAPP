@@ -1,0 +1,45 @@
+com.amtmonitoring.app-lifecycle-viewmodel-2.6.1-0 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\00fc815e79065aa6ed1945f3b05b182e\transformed\lifecycle-viewmodel-2.6.1\res
+com.amtmonitoring.app-glide-4.16.0-1 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\074ef1bebcc0055a7b63952ddeb4ca0b\transformed\glide-4.16.0\res
+com.amtmonitoring.app-profileinstaller-1.3.0-2 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\res
+com.amtmonitoring.app-emoji2-views-helper-1.2.0-3 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\15a03f5091cb4df8e27243847efe8a68\transformed\emoji2-views-helper-1.2.0\res
+com.amtmonitoring.app-transition-1.2.0-4 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\198f6d5718ae51e75f27bfff10068098\transformed\transition-1.2.0\res
+com.amtmonitoring.app-recyclerview-1.1.0-5 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\1b51677a1652cb9221e4b9a8adab958a\transformed\recyclerview-1.1.0\res
+com.amtmonitoring.app-circleimageview-3.1.0-6 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\1d35837b1df13f9b65da1e21de0999ac\transformed\circleimageview-3.1.0\res
+com.amtmonitoring.app-play-services-maps-18.2.0-7 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\res
+com.amtmonitoring.app-constraintlayout-2.1.4-8 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\277acb44cda5a039f8c9dd6e3f6ef4b6\transformed\constraintlayout-2.1.4\res
+com.amtmonitoring.app-lifecycle-livedata-2.6.1-9 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\2a6388fe6ae657e83b77a5dbe5c53f4c\transformed\lifecycle-livedata-2.6.1\res
+com.amtmonitoring.app-appcompat-resources-1.6.1-10 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\2bd21c387f905f9fbde1003770ad8dc1\transformed\appcompat-resources-1.6.1\res
+com.amtmonitoring.app-core-1.9.0-11 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\res
+com.amtmonitoring.app-emoji2-1.2.0-12 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\res
+com.amtmonitoring.app-drawerlayout-1.1.1-13 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\55b04a34d5ad6611e2e939a160c95b12\transformed\drawerlayout-1.1.1\res
+com.amtmonitoring.app-camera-view-1.3.1-14 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5823a4598674c50109eaa740d80d6d29\transformed\camera-view-1.3.1\res
+com.amtmonitoring.app-core-runtime-2.2.0-15 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\583aae820793e5e8767d99a926d8a12b\transformed\core-runtime-2.2.0\res
+com.amtmonitoring.app-material-1.11.0-16 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5a1d71a04bdc553bf688ba17ca70df95\transformed\material-1.11.0\res
+com.amtmonitoring.app-camera-video-1.3.1-17 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5a989b5bfe77343b094259ef1ea1db74\transformed\camera-video-1.3.1\res
+com.amtmonitoring.app-lifecycle-process-2.6.1-18 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5ca9abe7f993b7cb4a424a2694276b9c\transformed\lifecycle-process-2.6.1\res
+com.amtmonitoring.app-play-services-basement-18.1.0-19 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\64105039eaa07909cfc0d935b7e044b9\transformed\play-services-basement-18.1.0\res
+com.amtmonitoring.app-annotation-experimental-1.3.1-20 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\6c7d6951d999dcbd231329108e734fd4\transformed\annotation-experimental-1.3.1\res
+com.amtmonitoring.app-cardview-1.0.0-21 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\7c9a346f0829635f6b7062ccc39f44bb\transformed\cardview-1.0.0\res
+com.amtmonitoring.app-lifecycle-runtime-2.6.1-22 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\7d4c7c643b8869e29cb68a0a6cb6c41c\transformed\lifecycle-runtime-2.6.1\res
+com.amtmonitoring.app-appcompat-1.6.1-23 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\7ff9ee7482a8dc9b9850645cff3f693b\transformed\appcompat-1.6.1\res
+com.amtmonitoring.app-core-ktx-1.9.0-24 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\84aee57a88aa52dd87ce16fde783dd48\transformed\core-ktx-1.9.0\res
+com.amtmonitoring.app-savedstate-1.2.1-25 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\8e0b7c0a1109ad1264615328fb705aaa\transformed\savedstate-1.2.1\res
+com.amtmonitoring.app-play-services-base-18.1.0-26 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\a551282bfeb6fbf93e5fa6cca88ce6f7\transformed\play-services-base-18.1.0\res
+com.amtmonitoring.app-viewpager2-1.0.0-27 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\a5961fc7ff6c6758ec3f17e726b83fa6\transformed\viewpager2-1.0.0\res
+com.amtmonitoring.app-lifecycle-viewmodel-savedstate-2.6.1-28 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\c0ac18b28e7295da33e94c657666f562\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.amtmonitoring.app-startup-runtime-1.1.1-29 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\c4ae5018d1971bd4804ebc09a2b4c3d5\transformed\startup-runtime-1.1.1\res
+com.amtmonitoring.app-lifecycle-livedata-core-2.6.1-30 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\d082959defb0a5b2306bd8138822aa7b\transformed\lifecycle-livedata-core-2.6.1\res
+com.amtmonitoring.app-camera-lifecycle-1.3.1-31 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\d681b65c5cbb99bb87566c2570af6284\transformed\camera-lifecycle-1.3.1\res
+com.amtmonitoring.app-fragment-1.3.6-32 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\db4c71753a0d8bdbf2369023d1201a49\transformed\fragment-1.3.6\res
+com.amtmonitoring.app-activity-1.8.0-33 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\dd25565965fc84f0cae111337904ca08\transformed\activity-1.8.0\res
+com.amtmonitoring.app-coordinatorlayout-1.1.0-34 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\e5080c1122a0e41dd46eedda2666cf1b\transformed\coordinatorlayout-1.1.0\res
+com.amtmonitoring.app-camera-camera2-1.3.1-35 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\res
+com.amtmonitoring.app-camera-core-1.3.1-36 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f2b1e5ba3e8778ebac52b8b41bb95e5a\transformed\camera-core-1.3.1\res
+com.amtmonitoring.app-swiperefreshlayout-1.1.0-37 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f98b41a2b751fd33124c79ee4440008b\transformed\swiperefreshlayout-1.1.0\res
+com.amtmonitoring.app-pngs-38 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\generated\res\pngs\debug
+com.amtmonitoring.app-resValues-39 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\generated\res\resValues\debug
+com.amtmonitoring.app-packageDebugResources-40 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.amtmonitoring.app-packageDebugResources-41 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.amtmonitoring.app-merged_res-42 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\intermediates\merged_res\debug
+com.amtmonitoring.app-debug-43 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\debug\res
+com.amtmonitoring.app-main-44 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\res

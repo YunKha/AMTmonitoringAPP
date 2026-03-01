@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/item_photo_detail.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/item_photo_detail.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/item_history.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/fragment_history.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/activity_take_ticket.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_take_ticket.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/item_ticket.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/item_ticket.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/activity_complete_job.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_complete_job.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/fragment_profile.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/activity_ticket_detail.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_ticket_detail.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/activity_camera.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_main.xml"
+    }
+]

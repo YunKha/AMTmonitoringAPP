@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_status_available.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_status_available.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bottom_nav_color.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_close.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/close.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_activity_ticket_detail.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_ticket_detail.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_activity_camera.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_ic_profile.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_activity_take_ticket.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_take_ticket.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_activity_complete_job.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_complete_job.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_status_progress.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_status_progress.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_truck.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/truck.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_outline_blue.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_outline_blue.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_location_card.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_location_card.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_card_white_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_card_white_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_card_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_card_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_card_blue_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_card_blue_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_button_primary.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/xml_file_paths.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_status_completed.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_status_completed.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_button_camera.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/button_camera.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_menu_card.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_menu_card.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_activity_login.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_outline_white.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_outline_white.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_item_ticket.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/item_ticket.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_item_photo_detail.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/item_photo_detail.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_jobb.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/jobb.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_fragment_history.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_history.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/history.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_card_border_blue.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_card_border_blue.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_home.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/home.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_status_green_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_status_green_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_logout.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/logout.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_activity_main.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_logo_ep.png.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/logo_ep.png"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_button_blue_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_button_blue_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_item_history.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_ticket_capsule.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_ticket_capsule.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_fragment_home.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_input.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_home_content.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_home_content.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_syess.png.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/syess.png"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/layout_fragment_profile.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_status_white_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_status_white_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_input_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_input_rounded.xml"
+    },
+    {
+        "merged": "com.amtmonitoring.app-merged_res-42:/drawable_bg_outline_blue_rounded.xml.flat",
+        "source": "com.amtmonitoring.app-main-44:/drawable/bg_outline_blue_rounded.xml"
+    }
+]

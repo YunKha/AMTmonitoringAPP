@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="12dp">
+
+    <!-- Card utama -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_rounded"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:layout_marginTop="10dp">
+
+        <!-- Kiri: Nama SPBU -->
+        <TextView
+            android:id="@+id/tv_nomor_spbu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SPBU Kartini"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Kanan: Nomor LO + Produk + L | KM -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/tv_nomor_lo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="214525884"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:id="@+id/tv_jenis_produk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pertamax Turbo"
+                android:textColor="@color/text_h"
+                android:textSize="12sp"
+                android:gravity="end" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_jumlah_kl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1800 L"
+                    android:textColor="@color/text_h"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  |  "
+                    android:textColor="@color/text_h"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_jarak_tempuh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7000 KM"
+                    android:textColor="@color/text_h"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Badge "Tersedia" overlap di pojok kanan atas -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="16dp"
+        android:text="Tersedia"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="@drawable/bg_status_available" />
+
+</FrameLayout>

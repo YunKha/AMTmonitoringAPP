@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AMTMonitoring"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- Google Maps API Key - replace with your key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_GOOGLE_MAPS_API_KEY" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AMTMonitoring.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+
+        <activity
+            android:name=".activities.TicketDetailActivity"
+            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+
+        <activity
+            android:name=".activities.TakeTicketActivity"
+            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+
+        <activity
+            android:name=".activities.CompleteJobActivity"
+            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+
+        <activity
+            android:name=".activities.CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

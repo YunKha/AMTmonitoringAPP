@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#1E3A6E"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:tint="@color/white"
+            android:contentDescription="Back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambil Tiket"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Ticket Info -->
+            <TextView
+                android:id="@+id/tv_ticket_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:text="Tiket: -"
+                android:textColor="#1A1A1A"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_card_border_blue"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Card: Nama Sopir + Nama Karnet -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_card_rounded"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:layout_marginBottom="20dp">
+
+                <!-- Nama Sopir -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Sopir"
+                    android:textColor="#555555"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="6dp" />
+
+                <EditText
+                    android:id="@+id/et_nama_sopir"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@drawable/bg_card_border_blue"
+                    android:hint=""
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#AAAAAA"
+                    android:inputType="textPersonName"
+                    android:paddingHorizontal="16dp"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Nama Karnet -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Karnet"
+                    android:textColor="#555555"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="6dp" />
+
+                <EditText
+                    android:id="@+id/et_nomor_karnet"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@drawable/bg_card_border_blue"
+                    android:hint=""
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#AAAAAA"
+                    android:inputType="text"
+                    android:paddingHorizontal="16dp"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <!-- Label Foto -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foto Check-In GPS"
+                android:textColor="#555555"
+                android:textSize="13sp"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Tombol Ambil Foto -->
+            <Button
+                android:id="@+id/btn_take_photo"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_button_blue_rounded"
+                android:text="Ambil Foto Delivery"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Preview Foto -->
+            <ImageView
+                android:id="@+id/iv_photo_preview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/bg_card_border_blue"
+                android:visibility="gone"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Tombol Ambil Tiket -->
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_button_blue_rounded"
+                android:text="Ambil Tiket"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

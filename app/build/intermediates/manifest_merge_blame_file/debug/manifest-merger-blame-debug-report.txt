@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amtmonitoring.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:8:5-65
+14-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission
+17-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:11:5-12:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:11:22-78
+19        android:maxSdkVersion="28" />
+19-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:12:9-35
+20    <uses-permission
+20-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:13:5-14:38
+21        android:name="android.permission.READ_EXTERNAL_STORAGE"
+21-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:13:22-77
+22        android:maxSdkVersion="32" />
+22-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:14:9-35
+23
+24    <uses-feature
+24-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:16:5-84
+25        android:name="android.hardware.camera"
+25-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:16:19-57
+26        android:required="true" />
+26-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:16:58-81
+27    <uses-feature
+27-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:17:5-90
+28        android:name="android.hardware.location.gps"
+28-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:17:19-63
+29        android:required="true" />
+29-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:17:64-87
+30    <uses-feature
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+31        android:glEsVersion="0x00020000"
+31-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+32        android:required="true" />
+32-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+33
+34    <queries>
+34-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+35
+36        <!-- Needs to be explicitly declared on Android R+ -->
+37        <package android:name="com.google.android.apps.maps" />
+37-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+37-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+38    </queries>
+39
+40    <permission
+40-->[androidx.core:core:1.9.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+41        android:name="com.amtmonitoring.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.9.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.9.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.amtmonitoring.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.9.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.9.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:19:5-75:19
+47        android:allowBackup="true"
+47-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:20:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.9.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\4428070d35b5908e2590b1f7977b0c86\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:label="@string/app_name"
+51-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:22:9-41
+52        android:supportsRtl="true"
+52-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:24:9-35
+53        android:testOnly="true"
+54        android:theme="@style/Theme.AMTMonitoring"
+54-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:25:9-51
+55        android:usesCleartextTraffic="true" >
+55-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:26:9-44
+56
+57        <!-- Google Maps API Key - replace with your key -->
+58        <meta-data
+58-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:30:9-32:56
+59            android:name="com.google.android.geo.API_KEY"
+59-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:31:13-58
+60            android:value="YOUR_GOOGLE_MAPS_API_KEY" />
+60-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:32:13-53
+61
+62        <activity
+62-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:34:9-42:20
+63            android:name="com.amtmonitoring.app.activities.LoginActivity"
+63-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:35:13-53
+64            android:exported="true"
+64-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:36:13-36
+65            android:theme="@style/Theme.AMTMonitoring.NoActionBar" >
+65-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:37:13-67
+66            <intent-filter>
+66-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:38:13-41:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:39:17-69
+67-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:39:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:40:17-77
+69-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:40:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:44:9-46:70
+73            android:name="com.amtmonitoring.app.activities.MainActivity"
+73-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:45:13-52
+74            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+74-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:46:13-67
+75        <activity
+75-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:48:9-50:70
+76            android:name="com.amtmonitoring.app.activities.TicketDetailActivity"
+76-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:49:13-60
+77            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+77-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:50:13-67
+78        <activity
+78-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:52:9-54:70
+79            android:name="com.amtmonitoring.app.activities.TakeTicketActivity"
+79-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:53:13-58
+80            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+80-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:54:13-67
+81        <activity
+81-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:56:9-58:70
+82            android:name="com.amtmonitoring.app.activities.CompleteJobActivity"
+82-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:57:13-59
+83            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+83-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:58:13-67
+84        <activity
+84-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:60:9-63:70
+85            android:name="com.amtmonitoring.app.activities.CameraActivity"
+85-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:61:13-54
+86            android:screenOrientation="portrait"
+86-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:62:13-49
+87            android:theme="@style/Theme.AMTMonitoring.NoActionBar" />
+87-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:63:13-67
+88
+89        <provider
+90            android:name="androidx.core.content.FileProvider"
+90-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:66:13-62
+91            android:authorities="com.amtmonitoring.app.fileprovider"
+91-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:67:13-64
+92            android:exported="false"
+92-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:68:13-37
+93            android:grantUriPermissions="true" >
+93-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:69:13-47
+94            <meta-data
+94-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:70:13-72:54
+95                android:name="android.support.FILE_PROVIDER_PATHS"
+95-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:71:17-67
+96                android:resource="@xml/file_paths" />
+96-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:72:17-51
+97        </provider>
+98
+99        <service
+99-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+100            android:name="androidx.camera.core.impl.MetadataHolderService"
+100-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+101            android:enabled="false"
+101-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+102            android:exported="false" >
+102-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+104                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+104-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+105                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+105-->[androidx.camera:camera-camera2:1.3.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\f0777c2e6a4a1820b151b7ca0115b803\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+106        </service> <!-- Needs to be explicitly declared on P+ -->
+107        <uses-library
+107-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+108            android:name="org.apache.http.legacy"
+108-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+109            android:required="false" />
+109-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\24acc2284443e673a97e4c1117eb92d5\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.amtmonitoring.app.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5593a3512b14e7f0f3d53e2cd26febdd\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5ca9abe7f993b7cb4a424a2694276b9c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5ca9abe7f993b7cb4a424a2694276b9c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\5ca9abe7f993b7cb4a424a2694276b9c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\a551282bfeb6fbf93e5fa6cca88ce6f7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\a551282bfeb6fbf93e5fa6cca88ce6f7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\a551282bfeb6fbf93e5fa6cca88ce6f7\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\a551282bfeb6fbf93e5fa6cca88ce6f7\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\64105039eaa07909cfc0d935b7e044b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\64105039eaa07909cfc0d935b7e044b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\64105039eaa07909cfc0d935b7e044b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+134
+135        <receiver
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+136            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+137            android:directBootAware="false"
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+138            android:enabled="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+139            android:exported="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+140            android:permission="android.permission.DUMP" >
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+142                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+145                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+148                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+151                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\0ac7c34e0161ba6d4c860c8772efd642\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+152            </intent-filter>
+153        </receiver>
+154    </application>
+155
+156</manifest>
