@@ -77,18 +77,18 @@
                     android:textSize="13sp"
                     android:layout_marginBottom="6dp" />
 
-                <EditText
-                    android:id="@+id/et_nama_sopir"
+                <TextView
+                    android:id="@+id/tv_driver_name"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
                     android:background="@drawable/bg_card_border_blue"
-                    android:hint=""
-                    android:textColor="#1A1A1A"
-                    android:textColorHint="#AAAAAA"
-                    android:inputType="textPersonName"
+                    android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
+                    android:textColor="#1A1A1A"
                     android:textSize="14sp"
-                    android:layout_marginBottom="16dp" />
+                    android:layout_marginBottom="16dp"
+                    android:focusable="false"
+                    android:clickable="false" />
 
                 <!-- Nama Karnet -->
                 <TextView
@@ -99,17 +99,27 @@
                     android:textSize="13sp"
                     android:layout_marginBottom="6dp" />
 
-                <EditText
-                    android:id="@+id/et_nomor_karnet"
+                <TextView
+                    android:id="@+id/tv_karnet_number"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
                     android:background="@drawable/bg_card_border_blue"
-                    android:hint=""
-                    android:textColor="#1A1A1A"
-                    android:textColorHint="#AAAAAA"
-                    android:inputType="text"
+                    android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:textSize="14sp" />
+                    android:textColor="#1A1A1A"
+                    android:textSize="14sp"
+                    android:focusable="false"
+                    android:clickable="false" />
+
+                <TextView
+                    android:id="@+id/tv_no_driver_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF3CD"
+                    android:padding="12dp"
+                    android:textColor="#856404"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
 
             </LinearLayout>
 

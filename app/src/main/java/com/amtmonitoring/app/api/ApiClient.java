@@ -15,10 +15,7 @@ import java.util.concurrent.TimeUnit;
  * Retrofit API client singleton
  */
 public class ApiClient {
-    // Untuk emulator Android: 10.0.2.2 mengarah ke localhost host machine
-    // Untuk device fisik: ganti dengan IP komputer di jaringan yang sama
-    private static final String BASE_URL = "http://192.168.1.10:8000/api/";
-
+    private static final String BASE_URL = "https://sensitivity-operator-laptop-contributed.trycloudflare.com/api/";
     private static Retrofit retrofit = null;
     private static ApiService apiService = null;
 

@@ -4,12 +4,13 @@ package com.amtmonitoring.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.camera.view.PreviewView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.amtmonitoring.app.R;
@@ -19,7 +20,7 @@ import java.lang.String;
 
 public final class ActivityCameraBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final ImageButton btnBack;
@@ -28,7 +29,19 @@ public final class ActivityCameraBinding implements ViewBinding {
   public final ImageButton btnCapture;
 
   @NonNull
+  public final ImageButton btnFlipCamera;
+
+  @NonNull
+  public final LinearLayout layoutCaptureBar;
+
+  @NonNull
+  public final LinearLayout layoutGpsInfo;
+
+  @NonNull
   public final PreviewView previewView;
+
+  @NonNull
+  public final TextView tvAddress;
 
   @NonNull
   public final TextView tvDateTime;
@@ -36,20 +49,26 @@ public final class ActivityCameraBinding implements ViewBinding {
   @NonNull
   public final TextView tvLocation;
 
-  private ActivityCameraBinding(@NonNull FrameLayout rootView, @NonNull ImageButton btnBack,
-      @NonNull ImageButton btnCapture, @NonNull PreviewView previewView,
-      @NonNull TextView tvDateTime, @NonNull TextView tvLocation) {
+  private ActivityCameraBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
+      @NonNull ImageButton btnCapture, @NonNull ImageButton btnFlipCamera,
+      @NonNull LinearLayout layoutCaptureBar, @NonNull LinearLayout layoutGpsInfo,
+      @NonNull PreviewView previewView, @NonNull TextView tvAddress, @NonNull TextView tvDateTime,
+      @NonNull TextView tvLocation) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnCapture = btnCapture;
+    this.btnFlipCamera = btnFlipCamera;
+    this.layoutCaptureBar = layoutCaptureBar;
+    this.layoutGpsInfo = layoutGpsInfo;
     this.previewView = previewView;
+    this.tvAddress = tvAddress;
     this.tvDateTime = tvDateTime;
     this.tvLocation = tvLocation;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -86,9 +105,33 @@ public final class ActivityCameraBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_flip_camera;
+      ImageButton btnFlipCamera = ViewBindings.findChildViewById(rootView, id);
+      if (btnFlipCamera == null) {
+        break missingId;
+      }
+
+      id = R.id.layout_capture_bar;
+      LinearLayout layoutCaptureBar = ViewBindings.findChildViewById(rootView, id);
+      if (layoutCaptureBar == null) {
+        break missingId;
+      }
+
+      id = R.id.layout_gps_info;
+      LinearLayout layoutGpsInfo = ViewBindings.findChildViewById(rootView, id);
+      if (layoutGpsInfo == null) {
+        break missingId;
+      }
+
       id = R.id.preview_view;
       PreviewView previewView = ViewBindings.findChildViewById(rootView, id);
       if (previewView == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_address;
+      TextView tvAddress = ViewBindings.findChildViewById(rootView, id);
+      if (tvAddress == null) {
         break missingId;
       }
 
@@ -104,8 +147,9 @@ public final class ActivityCameraBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCameraBinding((FrameLayout) rootView, btnBack, btnCapture, previewView,
-          tvDateTime, tvLocation);
+      return new ActivityCameraBinding((ConstraintLayout) rootView, btnBack, btnCapture,
+          btnFlipCamera, layoutCaptureBar, layoutGpsInfo, previewView, tvAddress, tvDateTime,
+          tvLocation);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

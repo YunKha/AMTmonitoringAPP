@@ -54,7 +54,7 @@ public class Ticket {
     @SerializedName("created_at")
     private String createdAt;
 
-    @SerializedName("photos")
+    @SerializedName("delivery_photos")
     private List<DeliveryPhoto> photos;
 
     // ==================== Getters & Setters ====================

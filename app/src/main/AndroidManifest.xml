@@ -23,7 +23,7 @@
 
         android:supportsRtl="true"
         android:theme="@style/Theme.AMTMonitoring"
-        android:usesCleartextTraffic="true"
+        android:usesCleartextTraffic="false"
         tools:targetApi="31">
 
         <!-- Google Maps API Key - replace with your key -->

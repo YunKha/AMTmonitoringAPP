@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -34,32 +33,37 @@ public final class ActivityTakeTicketBinding implements ViewBinding {
   public final Button btnTakePhoto;
 
   @NonNull
-  public final EditText etNamaSopir;
-
-  @NonNull
-  public final EditText etNomorKarnet;
-
-  @NonNull
   public final ImageView ivPhotoPreview;
 
   @NonNull
   public final ProgressBar progressBar;
 
   @NonNull
+  public final TextView tvDriverName;
+
+  @NonNull
+  public final TextView tvKarnetNumber;
+
+  @NonNull
+  public final TextView tvNoDriverInfo;
+
+  @NonNull
   public final TextView tvTicketInfo;
 
   private ActivityTakeTicketBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnBack,
-      @NonNull Button btnSubmit, @NonNull Button btnTakePhoto, @NonNull EditText etNamaSopir,
-      @NonNull EditText etNomorKarnet, @NonNull ImageView ivPhotoPreview,
-      @NonNull ProgressBar progressBar, @NonNull TextView tvTicketInfo) {
+      @NonNull Button btnSubmit, @NonNull Button btnTakePhoto, @NonNull ImageView ivPhotoPreview,
+      @NonNull ProgressBar progressBar, @NonNull TextView tvDriverName,
+      @NonNull TextView tvKarnetNumber, @NonNull TextView tvNoDriverInfo,
+      @NonNull TextView tvTicketInfo) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnSubmit = btnSubmit;
     this.btnTakePhoto = btnTakePhoto;
-    this.etNamaSopir = etNamaSopir;
-    this.etNomorKarnet = etNomorKarnet;
     this.ivPhotoPreview = ivPhotoPreview;
     this.progressBar = progressBar;
+    this.tvDriverName = tvDriverName;
+    this.tvKarnetNumber = tvKarnetNumber;
+    this.tvNoDriverInfo = tvNoDriverInfo;
     this.tvTicketInfo = tvTicketInfo;
   }
 
@@ -108,18 +112,6 @@ public final class ActivityTakeTicketBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_nama_sopir;
-      EditText etNamaSopir = ViewBindings.findChildViewById(rootView, id);
-      if (etNamaSopir == null) {
-        break missingId;
-      }
-
-      id = R.id.et_nomor_karnet;
-      EditText etNomorKarnet = ViewBindings.findChildViewById(rootView, id);
-      if (etNomorKarnet == null) {
-        break missingId;
-      }
-
       id = R.id.iv_photo_preview;
       ImageView ivPhotoPreview = ViewBindings.findChildViewById(rootView, id);
       if (ivPhotoPreview == null) {
@@ -132,6 +124,24 @@ public final class ActivityTakeTicketBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_driver_name;
+      TextView tvDriverName = ViewBindings.findChildViewById(rootView, id);
+      if (tvDriverName == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_karnet_number;
+      TextView tvKarnetNumber = ViewBindings.findChildViewById(rootView, id);
+      if (tvKarnetNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_no_driver_info;
+      TextView tvNoDriverInfo = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoDriverInfo == null) {
+        break missingId;
+      }
+
       id = R.id.tv_ticket_info;
       TextView tvTicketInfo = ViewBindings.findChildViewById(rootView, id);
       if (tvTicketInfo == null) {
@@ -139,7 +149,8 @@ public final class ActivityTakeTicketBinding implements ViewBinding {
       }
 
       return new ActivityTakeTicketBinding((LinearLayout) rootView, btnBack, btnSubmit,
-          btnTakePhoto, etNamaSopir, etNomorKarnet, ivPhotoPreview, progressBar, tvTicketInfo);
+          btnTakePhoto, ivPhotoPreview, progressBar, tvDriverName, tvKarnetNumber, tvNoDriverInfo,
+          tvTicketInfo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

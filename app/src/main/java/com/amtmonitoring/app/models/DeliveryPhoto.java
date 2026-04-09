@@ -12,7 +12,7 @@ public class DeliveryPhoto {
     @SerializedName("photo_path")
     private String photoPath;
 
-    @SerializedName("type")
+    @SerializedName("photo_type")
     private String type;
 
     @SerializedName("latitude")

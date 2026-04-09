@@ -3041,6 +3041,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable bg_button_blue_rounded
 drawable bg_button_primary
+drawable bg_capture_button
 drawable bg_card_blue_rounded
 drawable bg_card_border_blue
 drawable bg_card_rounded
@@ -3099,6 +3100,8 @@ drawable googleg_standard_color_18
 drawable history
 drawable home
 drawable ic_arrow_back_black_24
+drawable ic_camera_flip
+drawable ic_camera_front
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -3295,6 +3298,7 @@ id box_my_job
 id box_new_job
 id btn_back
 id btn_capture
+id btn_flip_camera
 id btn_login
 id btn_logout
 id btn_submit
@@ -3382,8 +3386,6 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id et_email
-id et_nama_sopir
-id et_nomor_karnet
 id et_password
 id exitUntilCollapsed
 id expand_activities_button
@@ -3442,15 +3444,15 @@ id italic
 id item_touch_helper_previous_elevation
 id iv_avatar
 id iv_foto_sebelum_1
-id iv_foto_sebelum_2
 id iv_foto_sesudah_1
-id iv_foto_sesudah_2
 id iv_photo
 id iv_photo_preview
 id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_capture_bar
+id layout_gps_info
 id layout_photos
 id layout_sopir_info
 id left
@@ -3706,8 +3708,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_address
 id tv_completed_at
 id tv_date_time
+id tv_driver_name
 id tv_email
 id tv_employee_id
 id tv_empty
@@ -3715,9 +3719,11 @@ id tv_instruction
 id tv_jarak_tempuh
 id tv_jenis_produk
 id tv_jumlah_kl
+id tv_karnet_number
 id tv_location
 id tv_nama_sopir
 id tv_name
+id tv_no_driver_info
 id tv_nomor_karnet
 id tv_nomor_lo
 id tv_nomor_ship_to

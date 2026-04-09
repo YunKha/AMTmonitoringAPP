@@ -180,7 +180,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\L 
 	android:theme
 		ADDED from D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:25:9-51
 	android:usesCleartextTraffic
-		ADDED from D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:26:9-44
+		ADDED from D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:26:9-45
 meta-data#com.google.android.geo.API_KEY
 ADDED from D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:30:9-32:56
 	android:value

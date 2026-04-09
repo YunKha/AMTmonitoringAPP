@@ -52,7 +52,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AMTMonitoring"
-        android:usesCleartextTraffic="true" >
+        android:usesCleartextTraffic="false" >
 
         <!-- Google Maps API Key - replace with your key -->
         <meta-data

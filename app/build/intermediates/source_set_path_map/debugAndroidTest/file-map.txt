@@ -1,0 +1,6 @@
+com.amtmonitoring.app.test.app-core-1.5.0-0 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\43422cc09132daa9f777038f40928b81\transformed\core-1.5.0\res
+com.amtmonitoring.app.test.app-annotation-experimental-1.3.1-1 C:\Users\L O Q\.gradle\caches\9.0-milestone-1\transforms\6c7d6951d999dcbd231329108e734fd4\transformed\annotation-experimental-1.3.1\res
+com.amtmonitoring.app.test.app-androidTest-2 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\generated\res\resValues\androidTest\debug
+com.amtmonitoring.app.test.app-mergeDebugAndroidTestResources-3 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.amtmonitoring.app.test.app-mergeDebugAndroidTestResources-4 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.amtmonitoring.app.test.app-merged_res-5 D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\build\intermediates\merged_res\debugAndroidTest

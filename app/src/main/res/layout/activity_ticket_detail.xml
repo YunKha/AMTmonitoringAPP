@@ -345,7 +345,7 @@
                     android:padding="16dp"
                     android:layout_marginBottom="20dp">
 
-                    <!-- Foto Sebelum -->
+                    <!-- Foto Check-In -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -354,36 +354,15 @@
                         android:textSize="13sp"
                         android:layout_marginBottom="8dp" />
 
-                    <LinearLayout
+                    <ImageView
+                        android:id="@+id/iv_foto_sebelum_1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="16dp">
-
-                        <ImageView
-                            android:id="@+id/iv_foto_sebelum_1"
-                            android:layout_width="0dp"
-                            android:layout_height="140dp"
-                            android:layout_weight="1"
-                            android:layout_marginEnd="6dp"
-                            android:background="@drawable/bg_card_border_blue"
-                            android:scaleType="centerCrop"
-                            android:src="@android:drawable/ic_menu_camera"
-                            android:padding="32dp"
-                            android:contentDescription="Foto sebelum 1" />
-
-                        <ImageView
-                            android:id="@+id/iv_foto_sebelum_2"
-                            android:layout_width="0dp"
-                            android:layout_height="140dp"
-                            android:layout_weight="1"
-                            android:layout_marginStart="6dp"
-                            android:background="@drawable/bg_card_border_blue"
-                            android:scaleType="centerCrop"
-                            android:src="@android:drawable/ic_menu_camera"
-                            android:padding="32dp"
-                            android:contentDescription="Foto sebelum 2" />
-                    </LinearLayout>
+                        android:layout_height="400dp"
+                        android:scaleType="centerCrop"
+                        android:src="@android:drawable/ic_menu_camera"
+                        android:padding="18dp"
+                        android:layout_marginBottom="16dp"
+                        android:contentDescription="Foto Check-In" />
 
                     <View
                         android:layout_width="match_parent"
@@ -391,7 +370,7 @@
                         android:background="#E0E0E0"
                         android:layout_marginBottom="16dp" />
 
-                    <!-- Foto Sesudah -->
+                    <!-- Foto Check-Out -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -400,35 +379,14 @@
                         android:textSize="13sp"
                         android:layout_marginBottom="8dp" />
 
-                    <LinearLayout
+                    <ImageView
+                        android:id="@+id/iv_foto_sesudah_1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/iv_foto_sesudah_1"
-                            android:layout_width="0dp"
-                            android:layout_height="140dp"
-                            android:layout_weight="1"
-                            android:layout_marginEnd="6dp"
-                            android:background="@drawable/bg_card_border_blue"
-                            android:scaleType="centerCrop"
-                            android:src="@android:drawable/ic_menu_camera"
-                            android:padding="32dp"
-                            android:contentDescription="Foto sesudah 1" />
-
-                        <ImageView
-                            android:id="@+id/iv_foto_sesudah_2"
-                            android:layout_width="0dp"
-                            android:layout_height="140dp"
-                            android:layout_weight="1"
-                            android:layout_marginStart="6dp"
-                            android:background="@drawable/bg_card_border_blue"
-                            android:scaleType="centerCrop"
-                            android:src="@android:drawable/ic_menu_camera"
-                            android:padding="32dp"
-                            android:contentDescription="Foto sesudah 2" />
-                    </LinearLayout>
+                        android:layout_height="400dp"
+                        android:scaleType="centerCrop"
+                        android:src="@android:drawable/ic_menu_camera"
+                        android:padding="18dp"
+                        android:contentDescription="Foto Check-Out" />
 
                 </LinearLayout>
             </LinearLayout>

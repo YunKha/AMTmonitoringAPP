@@ -91,8 +91,8 @@
 53        android:testOnly="true"
 54        android:theme="@style/Theme.AMTMonitoring"
 54-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:25:9-51
-55        android:usesCleartextTraffic="true" >
-55-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:26:9-44
+55        android:usesCleartextTraffic="false" >
+55-->D:\Khaechal\Magang\PT Pertamina\AMTMonitoringApp\AMTMonitoringApp\app\src\main\AndroidManifest.xml:26:9-45
 56
 57        <!-- Google Maps API Key - replace with your key -->
 58        <meta-data

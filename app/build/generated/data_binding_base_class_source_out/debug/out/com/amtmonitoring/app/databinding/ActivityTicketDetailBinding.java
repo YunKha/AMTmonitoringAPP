@@ -29,13 +29,7 @@ public final class ActivityTicketDetailBinding implements ViewBinding {
   public final ImageView ivFotoSebelum1;
 
   @NonNull
-  public final ImageView ivFotoSebelum2;
-
-  @NonNull
   public final ImageView ivFotoSesudah1;
-
-  @NonNull
-  public final ImageView ivFotoSesudah2;
 
   @NonNull
   public final LinearLayout layoutPhotos;
@@ -80,8 +74,7 @@ public final class ActivityTicketDetailBinding implements ViewBinding {
   public final TextView tvTakenAt;
 
   private ActivityTicketDetailBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnBack,
-      @NonNull ImageView ivFotoSebelum1, @NonNull ImageView ivFotoSebelum2,
-      @NonNull ImageView ivFotoSesudah1, @NonNull ImageView ivFotoSesudah2,
+      @NonNull ImageView ivFotoSebelum1, @NonNull ImageView ivFotoSesudah1,
       @NonNull LinearLayout layoutPhotos, @NonNull LinearLayout layoutSopirInfo,
       @NonNull ProgressBar progressBar, @NonNull TextView tvCompletedAt,
       @NonNull TextView tvJarakTempuh, @NonNull TextView tvJenisProduk,
@@ -91,9 +84,7 @@ public final class ActivityTicketDetailBinding implements ViewBinding {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.ivFotoSebelum1 = ivFotoSebelum1;
-    this.ivFotoSebelum2 = ivFotoSebelum2;
     this.ivFotoSesudah1 = ivFotoSesudah1;
-    this.ivFotoSesudah2 = ivFotoSesudah2;
     this.layoutPhotos = layoutPhotos;
     this.layoutSopirInfo = layoutSopirInfo;
     this.progressBar = progressBar;
@@ -149,21 +140,9 @@ public final class ActivityTicketDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.iv_foto_sebelum_2;
-      ImageView ivFotoSebelum2 = ViewBindings.findChildViewById(rootView, id);
-      if (ivFotoSebelum2 == null) {
-        break missingId;
-      }
-
       id = R.id.iv_foto_sesudah_1;
       ImageView ivFotoSesudah1 = ViewBindings.findChildViewById(rootView, id);
       if (ivFotoSesudah1 == null) {
-        break missingId;
-      }
-
-      id = R.id.iv_foto_sesudah_2;
-      ImageView ivFotoSesudah2 = ViewBindings.findChildViewById(rootView, id);
-      if (ivFotoSesudah2 == null) {
         break missingId;
       }
 
@@ -252,9 +231,9 @@ public final class ActivityTicketDetailBinding implements ViewBinding {
       }
 
       return new ActivityTicketDetailBinding((LinearLayout) rootView, btnBack, ivFotoSebelum1,
-          ivFotoSebelum2, ivFotoSesudah1, ivFotoSesudah2, layoutPhotos, layoutSopirInfo,
-          progressBar, tvCompletedAt, tvJarakTempuh, tvJenisProduk, tvJumlahKl, tvNamaSopir,
-          tvNomorKarnet, tvNomorLo, tvNomorShipTo, tvNomorSpbu, tvStatus, tvTakenAt);
+          ivFotoSesudah1, layoutPhotos, layoutSopirInfo, progressBar, tvCompletedAt, tvJarakTempuh,
+          tvJenisProduk, tvJumlahKl, tvNamaSopir, tvNomorKarnet, tvNomorLo, tvNomorShipTo,
+          tvNomorSpbu, tvStatus, tvTakenAt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
