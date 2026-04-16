@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * Retrofit API client singleton
  */
 public class ApiClient {
-    private static final String BASE_URL = "https://sensitivity-operator-laptop-contributed.trycloudflare.com/api/";
+    private static final String BASE_URL ="https://cook-newer-visiting-favourites.trycloudflare.com";
     private static Retrofit retrofit = null;
     private static ApiService apiService = null;
 
@@ -43,10 +43,12 @@ public class ApiClient {
                 if (token != null) {
                     builder.header("Authorization", "Bearer " + token);
                 }
-
                 builder.header("Accept", "application/json");
-                Request request = builder.build();
-                return chain.proceed(request);
+                builder.header("Content-Type", "application/json");
+                // Header ini penting untuk Cloudflare tunnel agar tidak redirect ke halaman warning
+                builder.header("CF-Access-Client-Id", "bypass");
+
+                return chain.proceed(builder.build());
             };
 
             OkHttpClient client = new OkHttpClient.Builder()
